@@ -1,5 +1,5 @@
-import Basic
-import Build
+import TSCBasic
+import TSCUtility
 import Workspace
 
 public func createArmDestination(arch: Triple.Arch) throws -> Destination {

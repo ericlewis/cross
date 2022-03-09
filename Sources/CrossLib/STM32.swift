@@ -1,6 +1,7 @@
 import Build
 import Foundation
 import Workspace
+import TSCUtility
 
 public class STM32Target: Target {
     public enum Microcontroller: String, CaseIterable {
